@@ -145,7 +145,7 @@ def dec(file):
 def main():
   encdec = input("Do you want to encode or decode? e/d: ")
   if encdec == "e":
-    file_name = input("What file do you want to encode? pki/secretImg: ")
+    file_name = input("What file do you want to encode?: ")
     enc(file_name)
   elif encdec == "d":
     file_name = "secretImg"
